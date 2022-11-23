@@ -11,11 +11,11 @@
 |- disaster_categories.csv  # data to process<br> 
 |- disaster_messages.csv  # data to process<br>
 |- process_data.py<br>
-|- CleanDatabase.db   # database to save clean data to<br>
+|- DisasterResponse.db   # database to save clean data to<br>
 
 - models<br>
 |- train_classifier.py<br>
-|- cv_AdaBoostr.pkl  # saved model <br>
+|- classifier.pkl  # saved model <br>
 
 - README.md<br>
 
