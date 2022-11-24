@@ -50,6 +50,7 @@ def clean_data(df):
     row = categories.iloc[[1]]
     category_colnames = [category_name.split('-')[0] for category_name in row.values[0]]
     categories.columns = category_colnames
+    categories.related.loc[categories.related == 'related-2'] = 'related-1'
     
     for column in categories:
         categories[column] = categories[column].str[-1]
